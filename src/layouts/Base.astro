@@ -35,7 +35,7 @@ const ogImage = image ? new URL(image, Astro.site ?? Astro.url) : undefined;
     <!-- 如需 AdSense 站點驗證碼，貼在這裡 -->
   </head>
   <body class="bg-slate-50 text-slate-800 antialiased">
-    <header class="border-b border-slate-200 bg-white">
+    <header class="sticky top-0 z-10 border-b border-slate-200 bg-white/90 backdrop-blur">
       <div class="mx-auto flex max-w-4xl items-center justify-between px-4 py-4">
         <a href="/" class="text-xl font-bold text-indigo-700">{SITE_NAME}</a>
         <a href="/" class="text-base text-slate-600 hover:text-indigo-700">首頁</a>

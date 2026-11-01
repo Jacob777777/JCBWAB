@@ -8,5 +8,8 @@ img, video { max-width: 100%; height: auto; }
 @media (min-width: 640px) { .prose { font-size: 1.125rem; } }
 .prose img { max-width: 100%; height: auto; border-radius: 0.5rem; }
 .prose table { display: block; overflow-x: auto; }
+.prose h2 { border-left: 4px solid #4f46e5; padding-left: 0.75rem; }
+.prose th { background: #eef2ff; }
+.prose a { font-weight: 600; }
 .prose pre { overflow-x: auto; }
 

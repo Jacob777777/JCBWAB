@@ -26,12 +26,12 @@ const fmt = pubDate.toLocaleDateString('zh-TW', { year: 'numeric', month: 'long'
     <div id="adsense-slot" class="ad-slot my-6"></div>
 
     {tocItems.length > 0 && (
-      <nav aria-label="目錄" class="mt-6 mb-8 rounded-lg border border-gray-200 bg-gray-50 p-5">
-        <p class="mb-3 text-lg font-bold">目錄</p>
-        <ul class="space-y-1.5 text-base">
+      <nav aria-label="目錄" class="mt-6 mb-8 rounded-xl border border-gray-200 bg-gray-50 p-6 shadow-sm">
+        <p class="mb-4 border-b border-gray-200 pb-3 text-lg font-bold">📑 目錄</p>
+        <ul class="space-y-2.5 text-base">
           {tocItems.map((h) => (
-            <li class={h.depth === 3 ? 'ml-4' : ''}>
-              <a href={'#' + h.slug} class="text-slate-700 transition hover:text-indigo-700 hover:underline">
+            <li class={h.depth === 3 ? 'ml-4 text-[0.95rem]' : 'font-medium'}>
+              <a href={'#' + h.slug} class="text-slate-700 transition-colors hover:text-blue-600 hover:underline">
                 {h.text}
               </a>
             </li>

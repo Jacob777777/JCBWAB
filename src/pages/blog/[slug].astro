@@ -9,7 +9,8 @@ export async function getStaticPaths() {
 }
 
 const { post } = Astro.props;
-const { Content } = await render(post);
+const { Content, headings } = await render(post);
+const tocItems = headings.filter((h) => h.depth === 2 || h.depth === 3);
 const { title, pubDate, category, image } = post.data;
 const description = post.data.description?.trim() || excerpt(post.body, 100) || title;
 const fmt = pubDate.toLocaleDateString('zh-TW', { year: 'numeric', month: 'long', day: 'numeric' });
@@ -23,6 +24,21 @@ const fmt = pubDate.toLocaleDateString('zh-TW', { year: 'numeric', month: 'long'
 
     <!-- 廣告預留位：標題下方（貼 AdSense 代碼於此 div 內） -->
     <div id="adsense-slot" class="ad-slot my-6"></div>
+
+    {tocItems.length > 0 && (
+      <nav aria-label="目錄" class="mt-6 mb-8 rounded-lg border border-gray-200 bg-gray-50 p-5">
+        <p class="mb-3 text-lg font-bold">目錄</p>
+        <ul class="space-y-1.5 text-base">
+          {tocItems.map((h) => (
+            <li class={h.depth === 3 ? 'ml-4' : ''}>
+              <a href={'#' + h.slug} class="text-slate-700 transition hover:text-indigo-700 hover:underline">
+                {h.text}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    )}
 
     <div class="prose prose-slate mt-6 max-w-none prose-a:text-indigo-700">
       <Content />

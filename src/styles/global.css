@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+html { font-size: 16px; -webkit-text-size-adjust: 100%; }
+body { font-size: 1rem; line-height: 1.75; }
+img, video { max-width: 100%; height: auto; }
+.prose { font-size: 1rem; max-width: 100%; overflow-wrap: anywhere; }
+@media (min-width: 640px) { .prose { font-size: 1.125rem; } }
+.prose img { max-width: 100%; height: auto; border-radius: 0.5rem; }
+.prose table { display: block; overflow-x: auto; }
+.prose pre { overflow-x: auto; }
+

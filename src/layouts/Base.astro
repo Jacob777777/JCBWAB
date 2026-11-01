@@ -1,0 +1,51 @@
+---
+import '../styles/global.css';
+import { SITE_NAME, SITE_DESC } from '../lib/seo';
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  type?: 'website' | 'article';
+  pubDate?: Date;
+}
+const { title, description = SITE_DESC, image, type = 'website', pubDate } = Astro.props;
+const fullTitle = title ? `${title} | ${SITE_NAME}` : SITE_NAME;
+const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url);
+const ogImage = image ? new URL(image, Astro.site ?? Astro.url) : undefined;
+---
+<!doctype html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta property="og:type" content={type} />
+    <meta property="og:title" content={title ?? SITE_NAME} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:locale" content="zh_TW" />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    {pubDate && <meta property="article:published_time" content={pubDate.toISOString()} />}
+    <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
+    <!-- 如需 AdSense 站點驗證碼，貼在這裡 -->
+  </head>
+  <body class="bg-slate-50 text-slate-800 antialiased">
+    <header class="border-b border-slate-200 bg-white">
+      <div class="mx-auto flex max-w-4xl items-center justify-between px-4 py-4">
+        <a href="/" class="text-xl font-bold text-indigo-700">{SITE_NAME}</a>
+        <a href="/" class="text-base text-slate-600 hover:text-indigo-700">首頁</a>
+      </div>
+    </header>
+    <main class="mx-auto max-w-4xl px-4 py-8"><slot /></main>
+    <footer class="mt-12 border-t border-slate-200 bg-white py-8 text-center text-base text-slate-500">
+      <p>© 2026 {SITE_NAME}. 版權所有。</p>
+      <p class="mt-1">本站部分連結為聯盟行銷連結，購買時我們可能獲得佣金，不影響您的價格。</p>
+    </footer>
+  </body>
+</html>
+

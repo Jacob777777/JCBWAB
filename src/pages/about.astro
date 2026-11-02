@@ -1,0 +1,54 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE_NAME } from '../lib/seo';
+---
+<Base
+  title="關於我"
+  description="17 歲資處科學生、爵士鼓老師，也是彩色日拋狂熱者。我用開發者的嚴謹邏輯，做最真實的無濾鏡美妝與隱眼評測。"
+>
+  <article class="mx-auto max-w-3xl rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-10">
+    <p class="inline-block rounded-full bg-indigo-100 px-3 py-1 text-base font-medium text-indigo-700">About</p>
+    <h1 class="mt-2 text-3xl font-bold leading-tight sm:text-4xl">關於我：寫程式的美妝狂熱者</h1>
+
+    <div class="prose prose-slate mt-6 max-w-none">
+      <p>嗨，我是 {SITE_NAME} 的站長。先自我介紹一下，我的人設有點反差：</p>
+
+      <ul>
+        <li><strong>平日：</strong>17 歲的資處科學生，每天跟程式碼相處，熟悉 Astro 與 JavaScript，這個網站就是我自己從零寫出來的。</li>
+        <li><strong>週末：</strong>教國小生打爵士鼓的老師，在鼓聲裡練習把一件事講得清楚又有耐心。</li>
+        <li><strong>私底下：</strong>徹頭徹尾的美妝與彩色日拋狂熱者，口袋名單比衣櫃還長。</li>
+      </ul>
+
+      <h2>為什麼我要做這個網站？</h2>
+      <p>我自己買東西時最怕兩件事：廣告話術看起來都很神，以及評測全都是「好用、推推」，卻說不出為什麼。</p>
+      <p>所以我決定換個方式，<strong>用開發者的嚴謹邏輯，來做最真實的無濾鏡美妝與隱眼評測</strong>。</p>
+
+      <h2>我的評測原則</h2>
+      <ul>
+        <li><strong>不說廢話，只講乾貨：</strong>直接講重點、講差異、講踩雷，不繞圈子。</li>
+        <li><strong>拆解規格，不只看廣告：</strong>像除錯一樣，一項一項檢查成分、材質、含水量、基弧這些可以被驗證的資訊。</li>
+        <li><strong>誠實標示：</strong>示意圖會寫「示意」，主觀感受會寫是我個人的感受，不誇大功效。</li>
+        <li><strong>安全第一：</strong>隱形眼鏡屬於醫療器材，我會一直提醒要選合法產品、依專業建議配戴。</li>
+      </ul>
+
+      <h2>關於聯盟行銷</h2>
+      <p>本站部分連結為聯盟行銷連結，若你透過連結購買，我會獲得微薄分潤，但這不會影響你的購買價格，也不會影響我的評價內容。我不是醫療專業人員，文章內容僅供參考，不能取代眼科醫師的專業意見。</p>
+    </div>
+
+    <section id="contact" class="mt-10 rounded-xl border border-indigo-200 bg-gradient-to-br from-indigo-50 to-violet-50 p-6 sm:p-8" aria-labelledby="contact-title">
+      <h2 id="contact-title" class="text-2xl font-bold text-indigo-800">💌 公關品試用 / 商業合作</h2>
+      <p class="mt-3 text-base text-slate-700 sm:text-lg">
+        歡迎美妝與隱形眼鏡品牌來信！我會用同樣的標準檢視每一項合作：一樣不說廢話、不誇大，把真實的使用心得與規格重點整理給讀者。
+      </p>
+      <ul class="mt-4 space-y-1 text-base text-slate-700">
+        <li>✅ 公關品試用與開箱評測</li>
+        <li>✅ 彩色日拋、美妝新品的規格解析</li>
+        <li>✅ 其他內容合作提案</li>
+      </ul>
+      <p class="mt-5 rounded-lg bg-white px-4 py-3 text-base font-semibold text-slate-800 shadow-sm sm:text-lg">
+        聯絡信箱：[你的 Email]
+      </p>
+      <p class="mt-3 text-sm text-slate-500">來信請附上品牌、產品資訊與合作方式，我會盡快回覆。</p>
+    </section>
+  </article>
+</Base>

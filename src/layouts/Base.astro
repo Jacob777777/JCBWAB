@@ -47,7 +47,10 @@ const ogImage = image ? new URL(image, Astro.site ?? Astro.url) : undefined;
     <header class="sticky top-0 z-10 border-b border-slate-200 bg-white/90 backdrop-blur">
       <div class="mx-auto flex max-w-4xl items-center justify-between px-4 py-4">
         <a href="/" class="text-xl font-bold text-indigo-700">{SITE_NAME}</a>
-        <a href="/" class="text-base text-slate-600 hover:text-indigo-700">首頁</a>
+        <nav class="flex items-center gap-4 text-base text-slate-600" aria-label="主選單">
+          <a href="/" class="hover:text-indigo-700">首頁</a>
+          <a href="/about/" class="hover:text-indigo-700">關於我</a>
+        </nav>
       </div>
     </header>
     <main class="mx-auto max-w-4xl px-4 py-8"><slot /></main>

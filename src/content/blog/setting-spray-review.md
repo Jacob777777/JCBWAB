@@ -5,7 +5,7 @@ pubDate: '2026-11-03'
 category: '美妝實測'
 ---
 
-![油肌定妝噴霧推薦：KOSE 與植村秀持妝實測](/images/spray-hero.jpg)
+![油肌定妝噴霧推薦：KOSE 與植村秀持妝實測](../../assets/images/setting-spray-makeup-brushes-hero.jpg)
 
 *本文部分連結為聯盟行銷連結，若您透過連結購買，本站將獲得微薄分潤，但這不會影響您的購買價格。*
 
@@ -15,7 +15,7 @@ category: '美妝實測'
 
 ## 一、為什麼油肌特別容易脫妝？
 
-![炎熱夏天的清涼西瓜，象徵夏季高溫悶熱容易讓油肌脫妝](/images/summer-heat.jpg)
+![炎熱夏天的清涼西瓜，象徵夏季高溫悶熱容易讓油肌脫妝](../../assets/images/summer-heat-oily-skin-watermelon.jpg)
 
 ### 1. 出油是底妝的頭號敵人
 油肌的皮脂分泌旺盛，油脂會慢慢把粉體推開、溶解，所以最先垮掉的永遠是 T 字、鼻翼和下巴。再加上台灣天氣悶熱潮濕，流汗加出油，底妝撐不到下午很正常。
@@ -47,7 +47,7 @@ category: '美妝實測'
 
 ## 四、油肌必學：三明治定妝法
 
-![三明治定妝法：底妝前後噴灑定妝噴霧的步驟示意](/images/brush-tips.jpg)
+![三明治定妝法：底妝前後噴灑定妝噴霧的步驟示意](../../assets/images/sandwich-setting-method-makeup-brushes.jpg)
 
 這是我自己用了好幾年的方法，油肌真的能明顯感覺到差別。
 

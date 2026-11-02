@@ -1,4 +1,5 @@
-User-agent: *
+--
+˙ㄎㄩㄛˉUser-agent: *
 Allow: /
 
 Sitemap: https://nian-gao.idv.tw/sitemap-index.xml

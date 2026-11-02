@@ -28,3 +28,4 @@
 - 聯盟連結需照使用者提供的原文貼上，不可改動網址或文字；外部連結會由插件自動加上 `rel="sponsored nofollow noopener"`。
 - 禁用空話開場與結尾：「總而言之」、「讓我們深入探討」、「作為一個AI」。
 - Git commit 訊息請以 UTF-8 檔案（`git commit -F`）寫入，避免 PowerShell 中文亂碼。
+

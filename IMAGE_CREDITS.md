@@ -13,3 +13,6 @@
 | anc-earbuds-review-hero.jpg | 降噪耳機文章首圖 | CC0 | https://commons.wikimedia.org/wiki/File:Headphones_and_smartphone_(Unsplash).jpg |
 | taipei-station-commute-noise.jpg | 降噪耳機文章：通勤噪音 | CC0 | https://commons.wikimedia.org/wiki/File:Taipei_Railway_station_interior_(Unsplash).jpg |
 | black-white-headphones-closeup.jpg | 降噪耳機文章：缺點與災情 | CC0 | https://commons.wikimedia.org/wiki/File:Headphones_on_wood_in_black_and_white_(Unsplash).jpg |
+| rainy-window-humidity-hero.jpg | 除濕機文章首圖 | CC0 | https://commons.wikimedia.org/wiki/File:Rain_on_window_(Unsplash).jpg |
+| apartment-living-room-interior.jpg | 除濕機文章：租屋空間 | CC0 | https://commons.wikimedia.org/wiki/File:At_Home_(Unsplash).jpg |
+| clothespins-laundry-drying.jpg | 除濕機文章：災情與晾衣 | CC0 | https://commons.wikimedia.org/wiki/File:Out_to_Dry_(Unsplash).jpg |

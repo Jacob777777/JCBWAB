@@ -10,3 +10,6 @@
 | setting-spray-makeup-brushes-hero.jpg | 定妝噴霧文章首圖 | CC0 | https://commons.wikimedia.org/wiki/File:Brush-makeup-make-up-brushes_(24244266921).jpg |
 | summer-heat-oily-skin-watermelon.jpg | 定妝噴霧文章：夏天出油 | CC0 | https://commons.wikimedia.org/wiki/File:Summer_(Unsplash).jpg |
 | sandwich-setting-method-makeup-brushes.jpg | 定妝噴霧文章：三明治定妝法 | CC0 | https://commons.wikimedia.org/wiki/File:Makeup-brush-tips.jpg |
+| anc-earbuds-review-hero.jpg | 降噪耳機文章首圖 | CC0 | https://commons.wikimedia.org/wiki/File:Headphones_and_smartphone_(Unsplash).jpg |
+| taipei-station-commute-noise.jpg | 降噪耳機文章：通勤噪音 | CC0 | https://commons.wikimedia.org/wiki/File:Taipei_Railway_station_interior_(Unsplash).jpg |
+| black-white-headphones-closeup.jpg | 降噪耳機文章：缺點與災情 | CC0 | https://commons.wikimedia.org/wiki/File:Headphones_on_wood_in_black_and_white_(Unsplash).jpg |

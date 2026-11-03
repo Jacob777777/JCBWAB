@@ -84,9 +84,9 @@ category: '3C 評測'
 | 常在雨天或流汗使用 | 比較 IP 等級，Redmi Buds 5 Pro 標稱 IP54 |
 | 手機支援 LDAC | 兩款皆標稱支援 LDAC，仍需確認手機設定 |
 
-<!-- 聯盟連結待填：Soundcore Liberty 4 NC，請貼上 ichannels 導購短網址 -->
+👉 [點此查看 MOMO 網購 Soundcore Liberty 4 NC 最新優惠與保固 (高階降噪首選)](https://ibanana.biz/3YbPQ)
 
-<!-- 聯盟連結待填：Redmi Buds 5 Pro，請貼上 ichannels 導購短網址 -->
+👉 [點此查看 PChome 24h 購物 Redmi Buds 5 Pro 商品頁](https://24h.pchome.com.tw/prod/DYAN76-A900H35NV?fq=/S/DYANBE)
 
 ## 五、購買前檢查清單
 
